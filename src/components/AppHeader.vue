@@ -50,7 +50,7 @@ export default {
         </span>
       </div>
     </nav>
-    <jumbtron></jumbtron>
+    <Jumbtron></Jumbtron>
 
 
 
@@ -88,5 +88,10 @@ export default {
 <style scoped>
 header {
   background-color: 3d3d3d
+}
+
+.navbar>.container,{
+  position:fixed
+
 }
 </style>
