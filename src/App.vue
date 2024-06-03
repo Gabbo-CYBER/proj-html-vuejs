@@ -1,48 +1,70 @@
-<script setup>
-import AppHeader from './components/AppHeader.vue'
-import AppHeader from './components/AppMain.vue'
-import AppHeader from './components/AppFooter.vue'
-import { store } from "./store";
+<script>
+import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue'
+import AppFooter from './components/AppFooter.vue';
+import store from './data/store.js';
+
 
 
 export default {
-  data() {
-    return {
-      store,
-    };
-  },
-
-
-
   components: {
     AppHeader,
     AppMain,
     AppFooter,
+
+   
+    
+    
+    
+  },
+  data() {
+    return {
+      store
+      
+    }
   },
 
-  created() {
-   
+  mounted() {
+    
+
   },
+
+
   
   methods: {
   
-      }
+   
     }
-
-
+  }
+ 
 </script>
-
-
-
-
-
 
 <template>
 
+  <AppHeader/>
+
+ 
+
+   
+
+
+
+  <AppMain/>
+
+
+
+  <AppFooter/>
 
 
 
 
 
 
+    
+
+      
 </template>
+
+<style>
+
+</style>
