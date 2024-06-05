@@ -23,10 +23,10 @@ export default {
 
 <template>
   <ul class="nav justify-content-center">
-    <li class="nav-item m-1" v-for="(link, index) in links" :key="index">
+    <li class="nav-item m-2" v-for="(link, index) in links" :key="index">
       <a class="link-body-emphasis link-offset-2 link-underline link-underline-opacity-0" :href="link.url" target="_blank">{{ link.home }}</a>
     </li>
-    <li class="nav-item m-1" v-for="(link, index) in links" :key="index">
+    <li class="nav-item m-12" v-for="(link, index) in links" :key="index">
       <a class=" link-body-emphasis link-offset-2 link-underline link-underline-opacity-0" :href="link.url" target="_blank">{{ link.about }}</a>
     </li>
     <li class="nav-item m-1" v-for="(link, index) in links" :key="index">
