@@ -87,7 +87,7 @@ export default {
 
 
 <style scoped>
-.carousel-container {
+/* .carousel-container {
   position: relative;
   width: 300px;
   margin: 0 auto;
@@ -138,5 +138,5 @@ export default {
 
 .carousel-button.right {
   right: 0;
-}
+} */
 </style>

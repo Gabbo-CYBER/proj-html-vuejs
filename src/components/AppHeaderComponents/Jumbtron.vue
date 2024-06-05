@@ -36,9 +36,13 @@
                     <a class="click link-body-emphasis link-offset-2 link-underline link-underline-opacity-0 px-2 m-2"
                         href="#">Youtube</a>
                 </span>
+                
             </div>
             <div class="col-7">
-            <CaroselHeader/>
+                <CaroselHeader/>
+                <div class="card-body">
+                    <img src="../../assets/photo/Group-36-2x.png" class="First-photo" alt="...">
+                </div>
             </div>
         </div>
     </div>
