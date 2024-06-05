@@ -15,51 +15,49 @@
     <div class="card mb-3">
         <div class="row g-0 align-items-center">
             <div class="left-col  col-4 text-cemter">
-                <p class="green text-center">17 years of experiance</p>
+                <p class="green text-start">17 years of experiance</p>
                 <h1 class="card-title text-center">We Are a</h1>
                 <h1 class="card-title text-center">Web Design <span class="Agency">Agency</span></h1>
                 <hr class="d-inline-block me-2 rounded bg-success opacity-100" />
                 <hr class="separator d-inline-block rounded bg-success opacity-100" />
-                <p class="description-card text-center">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,there live the blind texts. Separated they live in Bookmarksgrove right at the coast of theSemantics, a large language ocean.Separated they live in Bookmarksgrove.</p>
-                <p class="black-card text-start m-5"><button class="btn rounded-5 text-white px-5 py-3 shadow-lg mt-4 fs-6">READ MORE</button>
+                <p class="description-card text-center">Far far away, behind the word mountains, far from the countries
+                    Vokalia and Consonantia,there live the blind texts. Separated they live in Bookmarksgrove right at
+                    the coast of theSemantics, a large language ocean.Separated they live in Bookmarksgrove.</p>
+                <p class="black-card text-start m-5"><button
+                        class="btn rounded-5 text-white px-5 py-3 shadow-lg mt-4 fs-6">READ MORE</button>
                 </p>
-                <span>
-                    <a class="click link-body-emphasis link-offset-2 link-underline link-underline-opacity-0 px-5 py-3 fs-6" href="#">Facebook</a>
-                    <a class="click link-body-emphasis link-offset-2 link-underline link-underline-opacity-0 px-5 py-3 fs-6" href="#">Instagram</a>
-                    <a class="click link-body-emphasis link-offset-2 link-underline link-underline-opacity-0 px-5 py-3 fs-6" href="#">Twitter</a>
-                    <a class="click link-body-emphasis link-offset-2 link-underline link-underline-opacity-0 px-5 py-3 fs-6" href="#">Youtube</a>
-
+                <span class="social">
+                    <a class="click link-body-emphasis link-offset-2 link-underline link-underline-opacity-0 px-2 m-2"
+                        href="#">Facebook</a>
+                    <a class="click link-body-emphasis link-offset-2 link-underline link-underline-opacity-0 px-2 m-2"
+                        href="#">Instagram</a>
+                    <a class="click link-body-emphasis link-offset-2 link-underline link-underline-opacity-0 px-2 m-2"
+                        href="#">Twitter</a>
+                    <a class="click link-body-emphasis link-offset-2 link-underline link-underline-opacity-0 px-2 m-2"
+                        href="#">Youtube</a>
                 </span>
             </div>
             <div class="col-7">
-                <div class="card-body">
-                    <img src="../assets/photo/Group-36-2x.png" class="prova" alt="...">
-                </div>
+            <CaroselHeader/>
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
 </template>
 
 
 <style scoped>
-.prova {
+
+.First-photo{
     width: 100%;
 }
 
-.left-col{
+.left-col {
     margin-left: 8rem;
 }
 
 
-.green{
-    font-size: 23px;
+.green {
+    font-size: 20px;
     color: #00d9a6;
     font-family: quicksand;
     font-weight: 500;
@@ -68,7 +66,7 @@
     background-color: transparent;
 }
 
-h1{
+h1 {
     font-size: 72px;
     color: #202020;
     font-family: cursive;
@@ -79,12 +77,10 @@ h1{
 
 }
 
-.Agency{
+.Agency {
     font-size: 72px;
     color: #00d9a6;
     font-family: cursive;
-    font-weight: 700;
-    line-height: 120%;
     letter-spacing: -4px;
     background-color: transparent;
 }
@@ -105,11 +101,8 @@ hr {
 .description-card {
     font-size: 15px;
     font-family: ubuntu;
-    font-weight: 300;
-    line-height: 160%;
     background-color: transparent;
 }
-
 
 
 button {
@@ -120,17 +113,19 @@ button {
     transition: color 0.5s;
     z-index: 1;
     overflow: hidden;
-
-   
 }
 
 button:hover {
-  background-color: #00d9a6;
+    background-color: #00d9a6;
 }
 
 
-.click{
-    overflow: auto;
-    background-color: ;
+.social {
+    transition: color 0.2s;
+    overflow: hidden;
+}
+
+.click:hover {
+    background-color: #00d9a6;
 }
 </style>
