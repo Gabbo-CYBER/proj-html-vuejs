@@ -6,7 +6,7 @@ export default {
 </script>
 
 <template>
-	<div class="ourMissBox row mx-0 justify-content-center">
+	<div class="ourMissBox row mx-5 justify-content-center">
 		<div class="ourMissBoxLeft col-5 position-relative">
 			<img
 				src="../../assets/photo/businesswoman-analysing-document-P8WSNMC-1024x820.jpg"
@@ -21,7 +21,7 @@ export default {
 
 		<div class="ourMissBoxRight col-4">
 			<div class="col-8 mb-3">
-				<p class="fw-bold py-4 display-4">learn more about our <span>missions</span></p>
+				<p class="fw-bold m-5 py-4 display-4">learn more about our <span>missions</span></p>
 
 				<hr class="d-inline-block me-2 rounded bg-success opacity-100" />
 
