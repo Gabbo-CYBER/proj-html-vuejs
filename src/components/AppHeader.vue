@@ -193,9 +193,8 @@ button:hover .background {
 
 .navbar {
   position: fixed;
-  top: 2.3rem;
-  z-index: 3;
-  width: 100%;
+    z-index: 3;
+    width: 100%;
 }
 
 .number {
