@@ -54,6 +54,7 @@ export default {
           <span class="navbar-toggler-icon"></span>
         </button>
         <Links/>
+        
           <span class="navbar-text">
             <button class="btn rounded-5 text-white px-5 py-3 shadow-lg fs-7">
               <div class="background"></div>
