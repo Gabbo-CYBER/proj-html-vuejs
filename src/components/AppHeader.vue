@@ -44,48 +44,42 @@ export default {
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
-        <a class="navbar-brand me-auto" href="#"><img class="logo" src="../assets/photo/cropped-Group-39-2x.png"
-            alt="Logo"></a>
+        <a class="navbar-brand me-auto" href="#">
+          <img class="logo" src="../assets/photo/cropped-Group-39-2x.png" alt="Logo">
+        </a>
 
-        <!-- Toggle button for mobile view -->
+        <!-- Pulsante Toggle -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <!-- Placeholder for navigation links -->
-            <li class="nav-item">
-              <Links />
-            </li>
-          </ul>
-
+        <Links/>
           <span class="navbar-text">
             <button class="btn rounded-5 text-white px-5 py-3 shadow-lg fs-7">
               <div class="background"></div>
-              PURCHASE
+              ACQUISTA
             </button>
-            <button class="btn btn-primary m-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-              aria-controls="offcanvasRight">
+            <button class="btn btn-primary m-2" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
               <i class="fas fa-search"></i>
             </button>
           </span>
         </div>
-      </div>
     </nav>
 
     <div class="offcanvas offcanvas-fullscreen" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasRightLabel">Search</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Start</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Chiudi"></button>
       </div>
       <div class="offcanvas-body">
         <form class="search-form">
           <div class="input-group">
-            <input type="text" class="form-control border-bottom border-3" placeholder="Search..." aria-label="Search"
+            <input type="text" class="form-control border-bottom border-3" placeholder="Cerca..." aria-label="Search"
               aria-describedby="button-search">
-            <button class="btn btn-primary" type="button" id="button-search"><i class="fas fa-search"></i></button>
+            <button class="btn btn-primary" type="button" id="button-search">
+              <i class="fas fa-search"></i>
+            </button>
           </div>
         </form>
       </div>
@@ -113,6 +107,7 @@ export default {
 
 <style scoped>
 
+
 .offcanvas-fullscreen {
   width: 100%;
   height: 100%;
@@ -130,11 +125,11 @@ export default {
 
 .input-group>.form-control {
   position: relative;
-    width: 80rem;
-    min-width: 0;
-    border: none;
-    font-size: xx-large;
-    }
+  width: 80rem;
+  min-width: 0;
+  border: none;
+  font-size: xx-large;
+}
 
 .search-container {
   position: relative;

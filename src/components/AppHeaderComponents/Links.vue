@@ -22,26 +22,35 @@ export default {
 
 
 <template>
-  <ul class="nav justify-content-center">
-    <li class="nav-item m-2" v-for="(link, index) in links" :key="index">
-      <a class="link-body-emphasis link-offset-2 link-underline link-underline-opacity-0" :href="link.url" target="_blank">{{ link.home }}</a>
-    </li>
-    <li class="nav-item m-12" v-for="(link, index) in links" :key="index">
-      <a class=" link-body-emphasis link-offset-2 link-underline link-underline-opacity-0" :href="link.url" target="_blank">{{ link.about }}</a>
-    </li>
-    <li class="nav-item m-1" v-for="(link, index) in links" :key="index">
-      <a class="link-body-emphasis link-offset-2 link-underline link-underline-opacity-0":href="link.url" target="_blank">{{ link.services }}</a>
-    </li>
-    <li class="nav-item m-1" v-for="(link, index) in links" :key="index">
-      <a class="link-body-emphasis link-offset-2 link-underline link-underline-opacity-0":href="link.url" target="_blank">{{ link.showcase }}</a>
-    </li>
-    <li class="nav-item m-1" v-for="(link, index) in links" :key="index">
-      <a class=" link-body-emphasis link-offset-2 link-underline link-underline-opacity-0":href="link.url" target="_blank">{{ link.blog }}</a>
-    </li>
-    <li class="nav-item m-1" v-for="(link, index) in links" :key="index">
-      <a class="link-body-emphasis link-offset-2 link-underline link-underline-opacity-0":href="link.url" target="_blank">{{ link.contact }}</a>
-    </li>
-  </ul>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+      <li class="nav-item my-3 m-1" v-for="(link, index) in links" :key="index">
+        <a class="link-body-emphasis link-offset-2 link-underline link-underline-opacity-0" :href="link.url"
+          target="_blank">{{ link.home }}</a>
+      </li>
+      <li class="nav-item my-3 m-1" v-for="(link, index) in links" :key="index">
+        <a class=" link-body-emphasis link-offset-2 link-underline link-underline-opacity-0" :href="link.url"
+          target="_blank">{{ link.about }}</a>
+      </li>
+      <li class="nav-item my-3 m-1" v-for="(link, index) in links" :key="index">
+        <a class="link-body-emphasis link-offset-2 link-underline link-underline-opacity-0" :href="link.url"
+          target="_blank">{{ link.services }}</a>
+      </li>
+      <li class="nav-item my-3 m-1" v-for="(link, index) in links" :key="index">
+        <a class="link-body-emphasis link-offset-2 link-underline link-underline-opacity-0" :href="link.url"
+          target="_blank">{{ link.showcase }}</a>
+      </li>
+      <li class="nav-item my-3 m-1" v-for="(link, index) in links" :key="index">
+        <a class=" link-body-emphasis link-offset-2 link-underline link-underline-opacity-0" :href="link.url"
+          target="_blank">{{ link.blog }}</a>
+      </li>
+      <li class="nav-item my-3 m-1" v-for="(link, index) in links" :key="index">
+        <a class="link-body-emphasis link-offset-2 link-underline link-underline-opacity-0" :href="link.url"
+          target="_blank">{{ link.contact }}</a>
+      </li>
+    </ul>
+  </div>
 
 
 
@@ -52,10 +61,7 @@ export default {
 
 
 <style scoped>
-
-.nav-item{
+.nav-item {
   list-style: none;
 }
-
-
 </style>
