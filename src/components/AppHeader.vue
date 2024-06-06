@@ -1,14 +1,14 @@
 <script>
 
 import Links from './AppHeaderComponents/Links.vue';
-import Jumbtron from './AppHeaderComponents/Jumbtron.vue';
+import Jumbotron from './AppHeaderComponents/Jumbotron.vue';
 import CaroselHeader from './AppHeaderComponents/CaroselHeader.vue';
 
 
 export default {
   components: {
     Links,
-    Jumbtron,
+    Jumbotron,
     CaroselHeader,
   },
 
@@ -84,18 +84,8 @@ export default {
         </form>
       </div>
     </div>
-    <Jumbtron />
-
-
-
+  <Jumbotron/>
   </header>
-
-
-
-
-
-
-
 
 
 
