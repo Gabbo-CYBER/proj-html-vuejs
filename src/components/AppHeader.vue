@@ -42,7 +42,7 @@ export default {
     </div>
 
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand me-auto" href="#">
           <img class="logo" src="../assets/photo/cropped-Group-39-2x.png" alt="Logo">
@@ -186,13 +186,16 @@ button:hover .background {
   position: fixed;
     z-index: 3;
     width: 100%;
+    top: 40px;
+    background-color: #efefeffa
 }
 
 .number {
   position: fixed;
-  top: 0;
-  z-index: 2;
-  background-color: #393939;
-  width: 100%;
+    top: 0px;
+    z-index: 3;
+    background-color: #3d3d3d;
+    width: 100%;
+    color: white;
 }
 </style>
